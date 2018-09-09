@@ -12,9 +12,6 @@ public class JaydensTeleop extends OpMode {
     Servo Jaydensclaw, Jaydensarm;
 
 
-
-
-
     public void init() {
         Jaydensbackmotorleft = hardwareMap.dcMotor.get("JaydensleftMotor");
         Jaydensbackmotorright = hardwareMap.dcMotor.get("JaydensrightMotor");
