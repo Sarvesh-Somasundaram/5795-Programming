@@ -31,7 +31,7 @@ public class OutreachTeleop extends OpMode {
 
 // fix this in configuring jaydensarm is labeled as jaydensclaw and change the code too check the servos after fixing
         if (gamepad1.dpad_up) {
-            Jaydensarm.setPosition(1);
+            Jaydensarm.setPosition(0.5);
         }
 
         else if (gamepad1.dpad_down) {
