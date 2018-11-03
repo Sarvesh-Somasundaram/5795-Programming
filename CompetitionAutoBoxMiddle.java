@@ -18,8 +18,6 @@ public class CompetitionAutoBoxMiddle extends LinearOpMode {
         Backleft = hardwareMap.dcMotor.get("Backleft");
         Backright = hardwareMap.dcMotor.get("Backright");
 
-        Backleft.setDirection(DcMotorSimple.Direction.REVERSE);
-
         waitForStart();
 
         start = System.currentTimeMillis();
