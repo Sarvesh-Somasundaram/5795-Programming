@@ -1,9 +1,11 @@
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.Outreach;
 
 
+import com.qualcomm.hardware.rev.Rev2mDistanceSensor;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 @TeleOp
 public class Xbot extends OpMode {
@@ -18,6 +20,10 @@ public class Xbot extends OpMode {
         Fl = hardwareMap.dcMotor.get("Fl");
         Fr = hardwareMap.dcMotor.get("Fr");
 
+        //if something goes wrong try uncommenting the next four lines to un comment just remove the backslashes
+
+       // Bl.setDirection(DcMotorSimple.Direction.REVERSE);
+        //Fl.setDirection(DcMotorSimple.Direction.REVERSE);
 
     }
 
